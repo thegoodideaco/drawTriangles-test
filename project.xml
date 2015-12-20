@@ -11,12 +11,11 @@
 	
 	<source path="Source" />
 	
-	<haxelib name="format" if="html5" />
-	<haxelib name="openfl" />
+	<!-- Also using -->
+	<!-- Lime 2.8.2 -->
+	<haxelib name="openfl" version="3.5.3" />
 	
 	<assets path="Assets" rename="assets" />
 	
-	<haxedef name="source-map-content" if="html5" />
-    <haxedef name="dom" if="html5" />
 	<haxedef name="webgl" if="html5" />
 </project>
